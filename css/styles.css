@@ -1,0 +1,68 @@
+.navbar {
+    background-color: antiquewhite;
+}
+
+body {
+    background-image: linear-gradient(aqua,white);
+}
+
+#navTextHome {
+    font-size: 70px;
+}
+
+.aboutUsImage {
+    height: 400px;
+}
+
+.centered {
+    font-size: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* menus.html  CSS */
+
+  h1:before,
+  h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 15vw;
+  }
+
+  h6:after {
+    left: 1em;
+    margin-right: -50%;
+  }
+
+  
+
+  
