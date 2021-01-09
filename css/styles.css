@@ -1,30 +1,55 @@
-html{
+html {
   overflow-x: none;
 }
 
-.navbar {
-    background-image: linear-gradient(aqua, antiquewhite);
-}
-
 body {
-    background-image: linear-gradient(aqua,white);
+  background-image: linear-gradient(aqua, white);
 }
 
 h3, #kokomo, h5, h1, h2 {
   font-family: 'Pacifico', cursive;
 }
 
+.navbar {
+    background-image: linear-gradient(aqua, antiquewhite);
+    color: rgb(41, 41, 41);
+}
+
+.carousel-caption a{
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item img {
+height: 50vw;
+}
+
+@media screen and (max-width: 992px) {
+.carousel-item img {
+  height: 65vw;
+}
+}
+
+@media screen and (max-width: 762px) {
+  .carousel-item img {
+    height: 90vw;
+  }
+  }
+
 #indexpic {
-  height: 26vw;
-  width: 35vw;
+height: 400px;
+width: 530px;
 }
 
 footer li a {
-  color: gray;
+  color: rgb(41, 41, 41);
 }
 
 .btn-link {
-  color: gray;
+  color: rgb(41, 41, 41);
 }
 
 #contactlink {
@@ -48,15 +73,14 @@ footer {
     transform: translate(-50%, -50%);
   }
 
-  h1 {
+.menu {
     overflow: hidden;
     text-align: center;
   }
   
   /* menus.html  CSS */
 
-  h1:before,
-  h1:after {
+.menu:before, .menu:after {
     background-color: #000;
     content: "";
     display: inline-block;
@@ -65,17 +89,17 @@ footer {
     vertical-align: middle;
     width: 50%;
   }
-  h1:before {
+.menu:before {
     right: 0.5em;
     margin-left: -50%;
   }
 
-  h1:after {
+.menu:after {
     left: 0.5em;
     margin-right: -50%;
   }
 
-  h6:after {
+h6:after {
     background-color: #000;
     content: "";
     display: inline-block;
@@ -84,21 +108,13 @@ footer {
     width: 15vw;
   }
 
-  h6:after {
+h6:after {
     left: 1em;
     margin-right: -50%;
   }
 
-  .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
-.carousel-caption a {
-  color: white;
-}
 
-.carousel-item img {
-  height: 45vw;
-}
+
 
   

@@ -16,7 +16,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-sm sticky-top navbar-light justify-content-center">
+  <nav class="navbar navbar-expand-sm fixed-top navbar-light justify-content-center">
     <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kokomoNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
             <ul class="navbar-nav mx-auto ml-auto nav-fill w-100">
                 <li class="nav-item"><a class="nav-link" href="aboutus.html"> About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="menus.html"> Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" id="kokomo"> Kokomo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="kokomo"><h3>Kokomo</h3></a></li>
                 <li class="nav-item"><a class="nav-link" href="#"> Order Online</a></li>
                 <li class="nav-item"><a class="nav-link" href="contactus.html"> Contact</a></li>
             </ul>
@@ -51,7 +51,7 @@
               </div>
               <div class="carousel-item">
                   <img class="d-block w-100 img-fluid" src="img/pexels-rajesh-tp-1624487 (1).jpg" alt="Photo of jerk chicken" />
-                  <div  class="carousel-caption">
+                  <div class="carousel-caption">
                       <a role="button" class="btn" href="menus.html"><h3>Menus</h3></a>
                   </div>
               </div>
@@ -81,41 +81,41 @@
 
   <div class="container-fluid px-0">
     <div class="row">
-      <div class="col d-none d-lg-block">
+      <div class="col d-none d-xl-block">
           <img class="img-fluid d-flex" src="img/pexels-lisa-fotios-109275.jpg" alt="Rum Cocktail" id="indexpic" />
       </div>
-      <div class="col col-lg-7">
+      <div class="mx-auto col-10 col-md-10 col-lg-10 col-xl-7">
         <div class="card">
           <h3 class="card-header bg-info text-white">Reserve a Table</h3>
           <div class="card-body">
             <form>
               <div class="form-group row">
-                <label for="name" class="col-md-4 col-form-label">Name</label>
-                <div class="col-sm-6 ml-auto">
+                <label for="name" class="col-sm-2 col-form-label">Name: </label>
+                <div class="col-sm-10">
                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name..." />
                 </div>
             </div>
               <div class="form-group row">
-                <label class="col-12 col-md-6 col-form-label" for="numPeople" name="numPeople">Number of People</label>
-                <div class="col-sm-4">
+                <label class="col-sm-2 col-form-label" for="numPeople" name="numPeople">Number of People: </label>
+                <div class="col-sm-10">
                     <input type="text" class="form-control" id="numPeople" name="numPeople" placeholder="Number of People" />
                 </div>
               </div>
               <div class="form-group row">
-                <label class="col col-form-label" for="date">Date</label>
+                <label class="col-sm-2 col-form-label" for="date">Date: </label>
                 <div class="col">
                     <input type="date" class="form-control" id="date" name="date" placeholder="date">
                 </div>
               </div>
               <div class="form-group row">
-                <label class="col col-form-label" for="time">Time</label>
+                <label class="col-sm-2 col-form-label" for="time">Time: </label>
                 <div class="col">
                     <input type="time" class="form-control" id="time" name="time">
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col">
-                    <button type="submit" class="btn btn-primary">Reserve Now</button>
+                    <button type="submit" class="btn btn-info">Reserve Now</button>
                 </div>
             </div>
             </form>
@@ -165,7 +165,7 @@
         <div class="media">
         <img class="img-fluid d-none d-xl-block" src="img/seafood-1081974_1920.jpg" alt="A picture of a mussel dish" id="indexpic" />
           <div class="media-body align-self-center ml-5">
-            <h5>Your Island Getaway is Never Too Far Away!</h5>
+            <h3 class="text-center">Your Island Getaway is Never Too Far Away!</h3>
           </div>
         </div>
       </div>
