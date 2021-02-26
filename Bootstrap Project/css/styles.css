@@ -1,0 +1,114 @@
+html {
+  overflow-x: none;
+}
+
+body {
+  background-image: linear-gradient(antiquewhite, white);
+}
+
+h3, #kokomo, h5, h1, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar {
+    background-image: linear-gradient(aqua, antiquewhite);
+    color: rgb(41, 41, 41);
+}
+
+.carousel-caption a{
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item img {
+height: 50vw;
+}
+
+@media screen and (max-width: 992px) {
+.carousel-item img {
+  height: 65vw;
+}
+}
+
+@media screen and (max-width: 762px) {
+  .carousel-item img {
+    height: 70vw;
+  }
+  }
+
+#indexpic {
+height: 400px;
+width: 530px;
+}
+
+footer li a {
+  color: rgb(41, 41, 41);
+}
+
+.btn-link {
+  color: rgb(41, 41, 41);
+}
+
+#contactlink {
+  color: black;
+}
+
+footer {
+  background-image: linear-gradient(antiquewhite, white);
+  padding: 20px 0;
+}
+
+.aboutUsImage {
+    height: 300px;
+}
+
+.centered {
+    font-size: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.menu {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* menus.html  CSS */
+
+.menu:before, .menu:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+.menu:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+.menu:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+/* h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 1vw;
+  } */
+
+h6:after {
+    left: 1em;
+    margin-right: -50%;
+  }
